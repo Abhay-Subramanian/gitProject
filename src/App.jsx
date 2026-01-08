@@ -8,7 +8,15 @@ function App() {
 
   return (
     <>
-      <div style={{ textAlign: 'center', padding: '2rem' }}>
+      <div
+        style={{
+          minHeight: '100vh',
+          backgroundColor: '#0f172a', // dark blue background
+          color: '#e5e7eb',           // light text
+          textAlign: 'center',
+          padding: '2rem'
+        }}
+      >
         <div style={{ marginBottom: '1.5rem' }}>
           <a href="https://vite.dev" target="_blank" rel="noreferrer">
             <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -18,8 +26,10 @@ function App() {
           </a>
         </div>
 
-        <h1 style={{ color: '#646cff' }}>Vite + React</h1>
-        <h2 style={{ fontWeight: 'normal' }}>Learning Java & Python</h2>
+        <h1 style={{ color: '#38bdf8' }}>Vite + React</h1>
+        <h2 style={{ fontWeight: 'normal', color: '#cbd5f5' }}>
+          Learning Java & Python
+        </h2>
 
         <div className="card" style={{ marginTop: '1.5rem' }}>
           <button onClick={() => setCount(count + 1)}>
