@@ -26,7 +26,7 @@ function App() {
           </a>
         </div>
 
-        <h1 style={{ color: '#38bdf8' }}>Vite + React</h1>
+        <h1 style={{ color: '#38bdf8' }}>Vite + java</h1>
         <h2 style={{ fontWeight: 'normal', color: '#cbd5f5' }}>
           Learning Java & Python
         </h2>
